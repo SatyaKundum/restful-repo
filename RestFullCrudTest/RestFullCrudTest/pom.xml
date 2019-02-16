@@ -32,9 +32,16 @@
         <dependency>
 		    <groupId>junit</groupId>
 		    <artifactId>junit</artifactId>
-		    <version>4.12</version>
+		    <version>4.12</version><!--$NO-MVN-MAN-VER$-->
 		    <scope>test</scope>
 		</dependency>
+		 <dependency>
+		    <groupId>com.mangofactory</groupId>
+		    <artifactId>swagger-springmvc</artifactId>
+		    <version>1.0.2</version><!--$NO-MVN-MAN-VER$-->
+		    <type>jar</type>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
